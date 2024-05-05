@@ -1,0 +1,130 @@
+@import "_top-nav.css";
+@import "_nav-vs-header.css";
+@import "_reception.css";
+@import "_about-us.css";
+@import "_services.css";
+@import "_work-us.css";
+@import "_comments.css";
+@import "_contact-us.css";
+@import "_footer.css";
+
+@font-face {
+  font-family: vazir;
+  src: url(../fonts/Vazir.woff) format(woff);
+  src: url(../fonts/Vazir.woff2) format(woff2);
+  src: url(../fonts/Vazir.eot) format(eot);
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: vazir;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+button {
+  border-style: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.container-fluid,
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.d-block {
+  display: block;
+}
+.d-flex {
+  display: flex;
+}
+.d-inline-block {
+  display: inline-block;
+}
+.d-none {
+  display: none;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+.flex-column {
+  flex-direction: column;
+}
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+.container {
+  max-width: 992px;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.btn-1 {
+  background-color: orange;
+  padding: 10px 40px;
+  font-size: 14px;
+  border: 2px solid orange;
+  color: #fff;
+  transition: 0.3s ease;
+  border-radius: 10px;
+}
+.btn-1:hover {
+  border: 2px solid orange;
+  background-color: #fff;
+  color: orange;
+}

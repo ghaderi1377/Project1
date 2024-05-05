@@ -1,0 +1,45 @@
+.work-us {
+  background-color: #ffecd1;
+  padding: 100px 0;
+  margin: 200px 0;
+}
+.work-us .work-us-1 div {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  width: 50%;
+}
+.work-us .work-us-1 div h6 {
+  font-size: 25px;
+  color: rgb(236, 198, 7);
+}
+.work-us .work-us-1 div p {
+  font-size: 15px;
+  margin: 30px 0;
+}
+.work-us .work-us-1 div button {
+  padding: 10px 40px;
+  font-size: 14px;
+  border: 2px solid orange;
+  background-color: #fff;
+  color: orange;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+.work-us .work-us-1 div button:hover {
+  border: 2px solid orange;
+  background-color: orange;
+  color: #fff;
+}
+@media (max-width: 993px) {
+  .work-us .work-us-1 {
+    flex-direction: column;
+  }
+  .work-us .work-us-1 div {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    width: 100%;
+  }
+  .work-us .work-us-1 div img {
+    display: none;
+  }
+}

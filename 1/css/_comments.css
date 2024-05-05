@@ -1,0 +1,64 @@
+.comments {
+  margin: 150px 0;
+}
+.comments h5 {
+  font-size: 25px;
+  margin-bottom: 70px;
+}
+.comments .comments-box {
+  max-width: 450px;
+  height: auto;
+  padding: 20px;
+  box-shadow: 0 0 10px 2px #ccc;
+  margin: 20px;
+}
+.comments .comments-box div img {
+  width: 100px;
+  border-radius: 100%;
+}
+.comments .comments-box div .fa-quote-left {
+  margin-left: auto;
+}
+.comments .comments-box div div .comments-name {
+  margin-left: 20px;
+}
+.comments .comments-box div div .comments-stars {
+  margin-left: 20px;
+  font-size: 12px;
+}
+.comments .comments-box div div .comments-stars .fa-star {
+  color: rgb(255, 187, 0);
+}
+.comments .comments-next button {
+  width: 30px;
+  height: 30px;
+  background-color: orange;
+  margin: 20px;
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 2px solid orange;
+  border-radius: 2px;
+  transition: 0.3s ease;
+}
+.comments .comments-next button:hover {
+  background-color: #fff;
+  color: orange;
+}
+.comments .comments-text {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .comments .comments-box {
+    margin: 0;
+    max-width: 100%;
+  }
+  .comments .comments-box-custom {
+    display: none;
+  }
+}

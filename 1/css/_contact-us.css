@@ -1,0 +1,79 @@
+.contact-us {
+  margin-bottom: 100px;
+}
+.contact-us .contact-us-title {
+  width: 100%;
+  font-size: 25px;
+  margin-bottom: 30px;
+  /* margin-left: -15px; */
+}
+.contact-us-1 .contact-us-2,
+.contact-us-1 .contact-us-plan {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  width: 50%;
+  margin: 0 15px;
+}
+.contact-us-1 .contact-us-plan div {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #ccc;
+  background-color: #878787;
+}
+.contact-us-1 .contact-us-2 form div {
+  margin-bottom: 15px;
+}
+.contact-us-1 .contact-us-2 form div:last-child {
+  margin-bottom: 0;
+}
+.contact-us-1 .contact-us-2 form div input {
+  outline: 0;
+  border: 0;
+  box-shadow: 0 0 15px 2px #eaeaea;
+  /* padding: 10px; */
+}
+.contact-us-1 .contact-us-2 form div input#Message {
+  height: 89px;
+  margin-bottom: 20px;
+}
+.contact-us-1 .contact-us-2 form div label {
+  color: #878787;
+  font-size: 13px;
+}
+.contact-us-1 .contact-us-2 form div button {
+  font-size: 13px;
+}
+.contact-us-1 .contact-us-2 form div:last-child {
+  display: flex;
+  /* justify-content: end; */
+}
+.contact-us-1 .contact-us-2 form div:last-child button {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .contact-us-1 .contact-us-2 form div:last-child {
+    display: flex;
+    justify-content: center;
+  }
+  .contact-us .contact-us-title {
+    margin-left: 0;
+  }
+  .contact-us-1 {
+    flex-direction: column;
+  }
+  .contact-us-1 .contact-us-2,
+  .contact-us-1 .contact-us-plan {
+    /* -ms-flex: 0 0 100%; */
+    /* flex: 0 0 100%;
+    width: 100%; */
+    margin: 0;
+  }
+  .contact-us-1 .contact-us-plan {
+    /* margin-top: 40px; */
+  }
+  .contact-us-1 .contact-us-plan div {
+    height: 200px;
+  }
+}

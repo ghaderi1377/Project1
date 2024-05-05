@@ -1,0 +1,33 @@
+.about-us {
+  margin: 80px 0;
+}
+.about-us div {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  width: 50%;
+}
+.about-us div:nth-child(1) {
+  padding-right: 40px;
+}
+.about-us div h6 {
+  font-size: 30px;
+}
+.about-us div p {
+  font-size: 16px;
+  margin: 30px 0;
+}
+
+@media (max-width: 993px) {
+  .about-us {
+    flex-direction: column;
+  }
+  .about-us div:nth-child(1) {
+    padding-right: 0;
+  }
+  .about-us div {
+    width: 100%;
+  }
+  .about-us div:nth-child(2) {
+    margin-top: 50px;
+  }
+}

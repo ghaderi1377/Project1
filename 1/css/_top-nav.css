@@ -1,0 +1,19 @@
+.top-nav {
+  background-color: #3a0e00;
+  color: #efefef;
+  height: 50px;
+}
+.top-nav div a i {
+  padding-right: 10px;
+  cursor: pointer;
+  transition: color 0.25s ease;
+}
+.top-nav div a i {
+  color: rgb(249, 226, 21);
+}
+.top-nav div a p {
+  font-size: 14px;
+}
+.top-nav div a p:hover {
+  color: rgb(249, 226, 21);
+}

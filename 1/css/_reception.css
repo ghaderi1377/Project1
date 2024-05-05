@@ -1,0 +1,46 @@
+.reception {
+  transform: translateY(-50px);
+}
+.reception button {
+  -ms-flex: 0 0 33.33333%;
+  flex: 0 0 33.33333%;
+  width: 33.33333%;
+  height: 200px;
+  background-color: #ffffff;
+  margin: 10px;
+  box-shadow: 0 0 10px 2px #d0d0d0;
+  color: #3c3c3c;
+  transition: 0.3s ease;
+}
+.reception button:nth-child(2) {
+  transform: translateY(-50px);
+  background-color: orange;
+  color: #ffffff;
+}
+@media (max-width: 993px) {
+  .reception {
+    flex-direction: column;
+    transform: translateY(0);
+    margin: 60px 0;
+  }
+  .reception button {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    width: 100%;
+    padding: 40px 0;
+  }
+  .reception button:nth-child(2) {
+    transform: translateY(0);
+  }
+}
+.reception button i {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.reception button h5 {
+  font-size: 20px;
+}
+.reception button:hover {
+  background-color: orange;
+  color: #ffffff;
+}
