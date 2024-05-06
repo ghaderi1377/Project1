@@ -5,8 +5,11 @@
   color: #fff;
   padding: 20px 0;
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
 }
+/* body{
+  overflow-x: hidden;
+} */
 .footer::before {
   content: "";
   position: absolute;
@@ -25,6 +28,7 @@
   top: -19.7%;
   right: -100px;
   background-color: #952300;
+  overflow-x: hidden;
   transform: rotate(45deg);
 }
 .footer h6 {
@@ -125,7 +129,6 @@
 .footer-contact-us-item div:hover i {
   background-color: #cdbf00;
 }
-
 .social-media {
   direction: ltr;
 }

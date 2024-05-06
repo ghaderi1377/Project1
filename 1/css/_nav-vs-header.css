@@ -20,6 +20,7 @@
 
 .nav-vs-header .nav .support-icon{
   font-size: 25px;
+  cursor: pointer;
   display: none;
 }
 .nav-vs-header .nav .hamburger-menu button ,.nav-vs-header .nav .support-icon{

@@ -7,7 +7,6 @@
 }
 .services div {
   width: 100%;
-  margin-left: -20px;
   margin-bottom: 40px;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -27,7 +26,6 @@
   width: 100%;
   height: auto;
   background-color: #ffffff;
-  margin: 10px;
   box-shadow: 0 0 10px 2px #d0d0d0;
   color: #3c3c3c;
   padding: 40px 10px;
