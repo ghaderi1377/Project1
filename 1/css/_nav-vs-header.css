@@ -39,7 +39,7 @@
 }
 .nav-vs-header .nav .menu-bar a {
   margin-left: 40px;
-  color: #ffecd1;
+  /* color: #ffecd1; */
   transition: color 0.25s ease;
 }
 .nav-vs-header .nav .menu-bar a:hover {
