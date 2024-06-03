@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/119c607ee3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="container">
+      <section class="toDoList-main">
+        <div id="lock" class="lock">
+          <div class="lock-img"><img src="images/thinker.png" alt="" /></div>
+        </div>
+        <div class="toDoList">
+          <div><h3>My To Do List</h3></div>
+          <div class="input-section">
+            <input id="nTask" name="nTask" type="text" placeholder="Title..." />
+            <div id="add-btn-div" class="active-btn">
+              <button id="add-btn">Add</button>
+            </div>
+          </div>
+          <div class="works-list-section">
+            <ul class="works-list"></ul>
+          </div>
+        </div>
+      </section>
+      <section class="numbers-section">
+        <div class="reverse-string">
+          <div>
+            <button id="reverse-string" onclick="reverseString(event)">
+              معکوس رشته
+            </button>
+          </div>
+        </div>
+        <div class="odd-even">
+          <div>
+            <button id="odd-even" onclick="oddEven(event)">زوج و فرد</button>
+          </div>
+        </div>
+        <div class="prime-number">
+          <div>
+            <button id="prime-number" onclick="primeNumber(event)">
+              عدد اول
+            </button>
+          </div>
+        </div>
+        <div
+          class="game-numbers d-flex flex-column justify-content-center align-items-center">
+          <div>
+            <button id="game-numbers" onclick="gameNumbers(event)">
+              بازی حدس عدد
+            </button>
+          </div>
+          <div class="text-center">
+            <img class="arrow-up" src="images/arrow-up-yellow.png" alt="" />
+          </div>
+          <div class="relative">
+            <p>
+              برای وارد شدن به<br />
+              To Do List<br />
+              باید در بازی حدس عدد برنده شوید.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+@import '_numbers-section.css';
+@import '_toDoList-main.css';
+@font-face {
+  font-family: vazir;
+  src: url(../fonts/Vazir.woff) format(woff);
+  src: url(../fonts/Vazir.woff2) format(woff2);
+  src: url(../fonts/Vazir.eot) format(eot);
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: parastoo;
+  src: url(../fonts/Parastoo.woff) format(woff);
+  src: url(../fonts/Parastoo.woff2) format(woff2);
+  src: url(../fonts/Parastoo.eot) format(eot);
+  font-weight: 700;
+  font-style: normal;
+}
+
+*,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family:vazir;
+  /* direction:rtl ; */
+}
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+button {
+  border-style: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.d-block {
+  display: block;
+}
+.d-flex {
+  display: flex;
+}
+.d-inline-block {
+  display: inline-block;
+}
+.d-none {
+  display: none;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+.flex-column {
+  flex-direction: column;
+}
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+.text-center{
+  text-align: center;
+}
+.display-none{
+  display: none!important;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
